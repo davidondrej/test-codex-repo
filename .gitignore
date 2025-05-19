@@ -1,0 +1,8 @@
+# location: .gitignore
+# Ignores environment files and node modules
+node_modules/
+frontend/.next/
+frontend/out/
+.env
+backend/.env
+frontend/.env.local
