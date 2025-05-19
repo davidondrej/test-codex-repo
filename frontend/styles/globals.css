@@ -1,0 +1,13 @@
+/*
+location: frontend/styles/globals.css
+Global styles including Tailwind base layer.
+This file defines only global CSS rules.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: theme('colors.secondary');
+  color: white;
+}
